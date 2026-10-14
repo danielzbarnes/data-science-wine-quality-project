@@ -9,6 +9,17 @@ No specific version of any package is required.
 
 The dataset can be downloaded using `ucimlrepo`, however a local copy of the dataset has been included.
 
+The Following Libraries are needed to run this project:
+- numpy $\geq$ 2.4.2
+- pandas $\geq$ 2.3.0
+- matplotlib $\geq$ 3.11.1
+- seaborn == 0.13.2
+- ucimlrepo == 0.0.7
+- scikit-learn == 1.9.1
+
+To install these libraries execute:  
+`pip install -r requirements.txt`
+
 -----------------------------------
 ### Project Motivation
 
@@ -30,3 +41,21 @@ There are 4 files included:
 ### Results
 
 The main findings of the code can be found in a blog post [here](https://medium.com/@danielzbarnes/can-chemistry-predict-taste-8170e4203ba9?postPublishedType=initial)
+
+-----------------------------------
+### Licensing, Authors and Acknowledgements
+
+Dataset: [Wine Quality - UCI Machine Learning](https://archive.ics.uci.edu/dataset/186/wine+quality)  
+
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.  
+  Modeling wine preferences by data mining from physicochemical properties.  
+  In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.  
+
+  Available at: [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016  
+                [Pre-press (pdf)] http://www3.dsi.uminho.pt/pcortez/winequality09.pdf  
+              [bib] http://www3.dsi.uminho.pt/pcortez/dss09.bib  
+
+- [License](https://github.com/danielzbarnes/data-science-wine-quality-project/blob/main/LICENSE) GNU General Public License v3.0
+
+
+
